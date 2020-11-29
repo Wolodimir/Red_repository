@@ -38,9 +38,8 @@ html, body{
     width: 60%;
     height: 10%;
     outline: none;
-    border: none;
-    border-radius: 50px;
-    background: whitesmoke;
+    border: 1px solid black;
+    background: white;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.3rem;
@@ -52,12 +51,12 @@ html, body{
     width: 30%;
     height: 10%;
     outline: none;
-    border: none;
-    border-radius: 50px;
+    border: 1px solid black;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 0.8rem;
+    background: white;
 }
 .box-2 button:hover {
-    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
     color: red;
 }
